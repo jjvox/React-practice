@@ -1,0 +1,8 @@
+.App {
+  margin-top: 32px;
+  padding: 32px;
+  min-width: 500px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
+}

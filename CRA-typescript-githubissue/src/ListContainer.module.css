@@ -1,0 +1,45 @@
+.listContainer {
+  padding: 0 32px;
+  margin-top: 24px;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input {
+  background: #f6f8fa;
+  border-radius: 6px;
+  border: 1px solid #d0d7de;
+  padding-left: 10px;
+  color: #57606a;
+  width: 60%;
+  margin-right: auto;
+  box-shadow: none;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.issueButton {
+  font-size: 14px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.listFilter {
+  margin-top: 20px;
+  background: rgb(246, 248, 250);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 16px;
+}
+
+.link {
+  text-decoration: none;
+}
