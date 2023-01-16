@@ -24,7 +24,7 @@ function App() {
       setAnswer("");
       inputRef.current.focus();
       return;
-    } else if (new Set(answer).length !== 4) {
+    } else if (new Set(answer).size !== 4) {
       alert("중복된 값은 입력 하실 수 없습니다. ");
       setAnswer("");
       inputRef.current.focus();
